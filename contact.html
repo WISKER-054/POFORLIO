@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISKER</title>
+    <link rel="icon" type="image/png" href="IMAGES/LOGO POFORLIO.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="VENDORS/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="VENDORS/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="VENDORS/jquery-3.7.1.js"></script>
+    <script src="VENDORS/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+    <style>
+        div1 {
+            border: 1px solid black;
+        }
+
+        .form-input {
+            margin: 40px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- DÒNG HEADER MENU -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Image and text -->
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/IMAGES/LOGO POFORLIO.png" width="35" height="35" class="d-inline-block align-top"
+                            alt="LOGO POFORLIO WISKER">
+                        DƯƠNG CHÍ HÀO
+                    </a>
+                    <!-- menu -->
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Dự án</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activity.html">Hoạt động</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- DÒNG FORM -->
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4"></div>
+            <div class="col-xs-4 col-sm-4 col-md-4">
+                <div class="alert alert-success form-input" role="alert">
+                    <h1 class="alert-heading">LIÊN HỆ</h1>
+                    <form action="/" method="post" name="frmLienHe" id="frmLienHe">
+                        <!-- div họ và tên -->
+                        <div class="element_formLH">
+                            <label for="hoVaTen">Họ và tên</label>
+                            <br><input type="text" name="hoVaTen" id="hoVaTen" class="input_contact"
+                                placeholder="Họ và tên của bạn là...">
+                        </div>
+                        <!-- div email -->
+                        <div class="element_formLH">
+                            <label for="emailLienHe">Email liên hệ</label>
+                            <br><input type="text" name="emailLienHe" id="emailLienHe" class="input_contact"
+                                placeholder="Email của bạn để chúng tôi liên hệ...">
+                        </div>
+                        <!-- div SĐT -->
+                        <div class="element_formLH">
+                            <label for="soDienThoai">SĐT liên hệ</label>
+                            <br><input type="text" name="soDienThoai" id="soDienThoai" class="input_contact"
+                                placeholder="SĐT của bạn để chúng tôi liên hệ...">
+                        </div>
+                        <!-- div nội dung -->
+                        <div class="element_formLH">
+                            <label for="noiDungPhanHoi">Nội dung</label>
+                            <br><textarea name="noiDungPhanHoi" id="noiDungPhanHoi" cols="51" rows="4"
+                                placeholder="Nội dung..."></textarea>
+                        </div>
+                        <div class="btn_GLNhan">
+                            <button type="button" class="btn btn-danger guiLoiNhan">GỬI LỜI NHẮN</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4"></div>
+        </div>
+    </div>
+</body>
+
+</html>

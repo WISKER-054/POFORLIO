@@ -1,0 +1,109 @@
+/* CSS dành cho thiết bị có kích thước màn hình dưới 575.98px */
+@media only screen and (max-width: 575.98px) {
+    .carousel-caption{
+        visibility: hidden;
+    }
+    .text_heading_footer{
+        font-size: 16px;
+    }
+    .text_heading_footer_1{
+        font-size: 10px;
+    }
+    .btn_outtro{
+        visibility: hidden;
+    }
+}
+
+/* CSS dành cho thiết bị có kích thước màn hình từ 576px đến 767.98px */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-caption{
+        visibility: hidden;
+    }
+    .text_heading_footer{
+        font-size: 24px;
+    }
+    .text_heading_footer_1{
+        font-size: 15px;
+    }
+    .btn_outtro{
+        visibility: hidden;
+    }
+}
+
+/* CSS cho các thiết bị có kích thước màn hình từ 768px đến 991.98px */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .carousel-caption{
+        visibility: hidden;
+    }
+    .text_heading_footer{
+        font-size: 32px;
+    }
+    .text_heading_footer_1{
+        font-size: 15px;
+    }
+    .btn_outtro{
+        visibility: hidden;
+    }
+}
+
+/* CSS cho các thiết bị có kích thước màn hình từ 992px đến 1199.98px */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* CSS cho các thiết bị có kích thước màn hình từ 1200px trở lên */
+@media only screen and (min-width: 1200px) {
+
+    /* Thiết lập kích thước cho hình ảnh */
+    img1 {
+        max-width: 100%;
+        /* Hình ảnh không vượt quá chiều rộng của phần tử cha */
+        height: auto;
+        /* Giữ tỉ lệ chiều cao/kích thước gốc của hình ảnh */
+    }
+
+    /* Thiết lập kích thước cho các thẻ heading */
+    h11,
+    h21,
+    h31,
+    h41,
+    h51,
+    h61 {
+        font-size: 3rem;
+        /* Ví dụ: Thiết lập kích thước cho tiêu đề */
+        /* Thêm các quy tắc CSS khác cần thiết */
+    }
+
+    /* Thiết lập kích thước cho thẻ paragraph */
+    p1 {
+        font-size: 1.5rem;
+        /* Ví dụ: Thiết lập kích thước cho đoạn văn */
+        /* Thêm các quy tắc CSS khác cần thiết */
+    }
+
+    /* Thiết lập kích thước cho thẻ span */
+    span1 {
+        font-size: 1.2rem;
+        /* Ví dụ: Thiết lập kích thước cho span */
+        /* Thêm các quy tắc CSS khác cần thiết */
+    }
+
+    /* Thiết lập kích thước cho thẻ label */
+    label1 {
+        font-size: 1.2rem;
+        /* Ví dụ: Thiết lập kích thước cho nhãn */
+        /* Thêm các quy tắc CSS khác cần thiết */
+    }
+
+    /* Thiết lập kích thước cho thẻ input */
+    input1 {
+        width: 100%;
+        /* Input chiếm toàn bộ chiều rộng của phần tử cha */
+        padding: 0.5rem;
+        /* Thêm padding để tạo khoảng cách xung quanh input */
+        font-size: 1.2rem;
+        /* Kích thước phù hợp với yêu cầu thiết kế */
+        /* Thêm các quy tắc CSS khác cần thiết */
+    }
+
+    /* Thêm các quy tắc CSS khác tùy thuộc vào yêu cầu thiết kế của bạn */
+}

@@ -1,0 +1,267 @@
+/* body */
+body {
+    font-family: 'Times New Roman','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* header */
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+.nav-link:hover {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.breadcrumb{
+    background-color: white !important;
+}
+/* icon ở footer */
+.social_icon_footer{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.fas{
+    margin-right: 10px;
+}
+/* list footer */
+.list_Policy{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* CSS CỦA INDEX.HTML */
+/* div bao quanh thành phần sản phẩm*/
+.item-collection {
+    position: relative;
+    text-align: center;
+    margin: 30px 10px;
+
+}
+
+.item-collection:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 5px 10px rgb(255, 0, 0);
+}
+
+/* tiêu đề collection */
+.headline {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* thẻ link a */
+.card-title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* giá sau save */
+.price-save {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* button: mua ngay */
+.buy-now-link {
+    background: linear-gradient(45deg, #000000, #00ff6a);
+    color: #ffffff;
+    padding: 5px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 1s ease-in-out;
+}
+
+.buy-now-link:hover {
+    background: linear-gradient(45deg, #ff1900, #ff9d00);
+}
+
+/* button: tải thêm cuối collection */
+.btn_more_item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.more-now-link {
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+}
+
+/* hiện bên trái */
+.note-item {
+    position: absolute;
+    /* background-color: red; */
+    background: linear-gradient(45deg, #ff1900, #ff9d00);
+    color: white;
+    width: 100px;
+    top: 25px;
+    left: 0px;
+    text-align: center;
+}
+
+/* hiện bên phải */
+.note-item-order {
+    position: absolute;
+    background-color: #191970;
+    /* background: linear-gradient(45deg, #000000, #00ff6a); */
+    width: 100px;
+    bottom: 200px;
+    right: 0px;
+    color: white;
+    text-align: center;
+}
+
+/* khi hover vào hình sẽ đổi thành hình khác hiển thị sản phẩm */
+/* CSS cho container của hình ảnh */
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ảnh mặc định */
+.hover-image {
+    transition: opacity 1s ease-in-out;
+}
+
+/* Ảnh khác (ẩn) */
+.hover-image-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* Ảnh này sẽ ẩn đi ban đầu */
+    transition: opacity 1s ease-in-out;
+}
+
+/* Hiệu ứng hover */
+.image-container:hover .hover-image {
+    opacity: 0;
+    /* Ảnh mặc định trở nên trong suốt */
+}
+
+.image-container:hover .hover-image-hidden {
+    opacity: 1;
+    /* Hiển thị ảnh khác */
+}
+
+
+/* CSS cho doiTac.html */
+.d-block:hover {
+    box-shadow: 5px 5px 10px rgb(255, 0, 0);
+    transform: scale(1.1);
+}
+
+.rowPartner {
+    margin: 30px;
+}
+
+/* CSS cho chinhSach.html gồm 4 trang chung */
+.policy_card{
+    margin: 20px;
+}
+.card_link {
+    text-align: center;
+}
+.card_link:hover {
+    box-shadow: 5px 5px 10px rgb(62, 0, 0);
+    transform: scale(1.015);
+}
+.policyLink {
+    text-decoration: none;
+    color: inherit;
+}
+.btn_policy{
+    margin-top: 10px;
+}
+.icon_policy_share{
+    font-size: 20px;
+}
+
+/* CSS cho DANGNHAP.HTML & DANGKY.HTML */
+.alert-heading {
+    text-align: center;
+}
+.div_btn_DNhap, .div_btn_DKy{
+    text-align: center;
+}
+.btnDK, .btnDN{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 50px;
+    margin: 10px;
+}
+.input_form {
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+}
+label{
+    font-size: 20px;
+}
+.thongBao{
+    font-size: 20px;
+    color: red;
+}
+.error{
+    color: red;
+}
+.social_icon_form{
+    text-align: center;
+}
+.icon_form{
+    color: black;
+    font-size: 20px;
+    margin: 0px 2px;
+}
+
+/* CSS GIOHANG.HTML */
+.price_shopping_cart{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    margin-left: 200px;
+}
+.price_shopping{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.btn_TToan{
+    padding: 10px 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn_shopping_cart{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.btn_clear_cart{
+    color: white;
+    background-color: red;
+    padding: 0px 10px;
+    border: none;
+}
+.clear_cart{
+    margin-top: 10px;
+}
+
+/* CSS LIENHE.HTML */
+.alert-success1{
+    text-align: center;
+}
+.input_contact{
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+}
+.btn_GLNhan{
+    margin: 10px 0px;
+}

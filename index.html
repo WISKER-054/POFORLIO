@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISKER</title>
+    <link rel="icon" type="image/png" href="IMAGES/LOGO POFORLIO.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="VENDORS/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="VENDORS/fontawesome-free-5.15.4-web/css/all.min.css">
+    <script src="VENDORS/jquery-3.7.1.js"></script>
+    <script src="VENDORS/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <script src="JS/script.js"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div1 {
+            border: 1px solid black;
+        }
+
+        .content-1 {
+            background-image: url('/IMAGES/17.png');
+            position: relative;
+        }
+
+        .content-1{
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 670px;
+        }
+
+        .div-infor{
+            position: absolute;
+            top: 35%;
+            left: 200px;
+            width: 400px;
+        }
+
+        .div-content-1,
+        .div-content-2,
+        .div-content-3,
+        .div-content-4 {
+            position: absolute;
+            top: 50%;
+            left: 200px;
+            width: 300px;
+        }
+
+        .div-content-2,
+        .div-content-3,
+        .div-content-4 {
+            display: none;
+        }
+        
+        .btn-more {
+            position: absolute;
+            top: 80%;
+            left: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- DÒNG HEADER MENU -->
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Image and text -->
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="/IMAGES/LOGO POFORLIO.png" width="35" height="35" class="d-inline-block align-top"
+                            alt="LOGO POFORLIO WISKER">
+                        DƯƠNG CHÍ HÀO
+                    </a>
+                    <!-- menu -->
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="project.html">Dự án</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="activity.html">Hoạt động</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- DÒNG NỘI DUNG CHÍNH -->
+        <div class="row content-1">
+            <div class="col-12">
+                <div class="div-infor text-right">
+                    <h1 class="text-left">DƯƠNG CHÍ HÀO</h1>
+                    <span>Chia sẻ</span>
+                    <span>
+                        <i class="fab fa-pinterest social_icon_footer"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-facebook social_icon_footer"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-facebook-messenger social_icon_footer"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-instagram-square social_icon_footer"></i>
+                    </span>
+                    <hr>
+                </div>
+                <div class="div-content-1">
+                    <p>
+                        Tôi là Dương Chí Hào hay biệt hiệu là WISKER, là một sinh viên ngành Kỹ thuật Phần mềm tại Đại
+                        học Cần Thơ. Sinh năm 2002,
+                        tôi rất có niềm đam mê với kiến thức sâu rộng về lập trình Front-end và thiết kế Website.
+                    </p>
+                </div>
+                <div class="div-content-2">
+                    <p>
+                        Trong suốt quãng thời gian học tập và làm việc, tôi đã tích lũy được nhiều kỹ năng quan trọng
+                        như làm việc nhóm hiệu quả, đồng thời giữ vai trò làm đội trưởng với khả năng quản lý thời gian
+                        linh hoạt. Tôi cũng có khả năng tìm kiếm thông tin một cách nhanh chóng và thích nghi tốt với
+                        môi trường làm việc mới.
+                    </p>
+                </div>
+                <div class="div-content-3">
+                    <p>
+                        Ngoài ra, sở thích của tôi không chỉ giới hạn trong lĩnh vực công nghệ. Tôi đam mê thiết kế đồ
+                        họa, chụp hình và chỉnh sửa hình ảnh. Sự sáng tạo cùng với khả năng tìm kiếm và thảo luận để tìm
+                        ra
+                        giải pháp là những điều khiến tôi hứng thú. Tôi cũng rất đam mê việc đào tạo và chia sẻ kiến
+                        thức cho người khác.
+                    </p>
+                </div>
+                <div class="div-content-4">
+                    <p>
+                        Với tinh thần nhiệt huyết và lòng đam mê với ngành công nghệ thông tin, tôi luôn sẵn lòng chinh
+                        phục mọi thách thức và đóng góp vào sự phát triển của cộng đồng. Rất hân hạnh được làm quen và
+                        hợp tác cùng mọi người.
+                    </p>
+                </div>
+                <button type="button" class="btn btn-outline-dark btn-more" id="btn">XEM THÊM</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('btn').addEventListener('click', function() {
+          // Lấy các phần tử văn bản
+          const content1 = document.querySelector('.div-content-1');
+          const content2 = document.querySelector('.div-content-2');
+          const content3 = document.querySelector('.div-content-3');
+          const content4 = document.querySelector('.div-content-4');
+      
+          // Kiểm tra xem đoạn văn bản nào đang được hiển thị
+          if (content1.style.display !== 'none') {
+            // Nếu đoạn 1 hiển thị, ẩn đoạn 1 và hiển thị đoạn 2
+            content1.style.display = 'none';
+            content2.style.display = 'block';
+          } else if (content2.style.display !== 'none') {
+            // Nếu đoạn 2 hiển thị, ẩn đoạn 2 và hiển thị đoạn 3
+            content2.style.display = 'none';
+            content3.style.display = 'block';
+          } else if (content3.style.display !== 'none') {
+            // Nếu đoạn 2 hiển thị, ẩn đoạn 2 và hiển thị đoạn 3
+            content3.style.display = 'none';
+            content4.style.display = 'block';
+          } else {
+            // Nếu đoạn 3 hiển thị, ẩn đoạn 3 và hiển thị đoạn 1
+            content4.style.display = 'none';
+            content1.style.display = 'block';
+          }
+        });
+      </script>
+</body>
+
+</html>
